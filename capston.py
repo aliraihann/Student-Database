@@ -195,64 +195,8 @@ def main():
     elif(pilihan=='3'):
             mengupdatenilaisiswa()
     elif(pilihan=='4'):
-            menghapusnilaisiswa()       
+            menghapusnilaisiswa()     
+    else:
+        print('Terima Kasih telah menggunakan Program!')  
 
 main() 
-        
-
-
-    # if  (pilihan == str(1)):
-    #     print('Daftar Siswa\n')
-    #     print('No.\t NIS\t Nama\t Nilai Matematika\t Nilai IPA\t Nilai IPS')
-    #     for i in range(len(daftarsiswa)):
-    #         print('{}\t {}\t {}\t {}\t {}'.format(i,daftarsiswa[i]['Nomor Induk Siswa'],daftarsiswa[i]['Nama'],daftarsiswa[i]['Nilai Matematika'],daftarsiswa[i]['Nilai IPA'],daftarsiswa[i]['Nilai IPS']))
-    # elif(pilihan==str(2)):
-    #     nomornis=input('Masukan Nomor Induk Siswa: ')
-    #     namasiswa=input('Masukan Nama Siswa: ')
-    #     nilaimtk=input('Masukan Nilai Matematika Siswa: ')
-    #     nilaiipa=input('Masukan Nilai IPA Siswa: ')
-    #     nilaiips=input('Masukan Nilai IPS Siswa: ')
-    #     daftarsiswa.append({
-    #         'Nomor Induk Siswa':nomornis,
-    #         'Nama':namasiswa,
-    #         'Nilai Matematika':nilaimtk,
-    #         'Nilai IPA':nilaiipa,
-    #         'Nilai IPS':nilaiips,
-    #     })
-    #     print('Penambahan Data Anda Berhasil\n')
-    #     print('Daftar Siswa\n')
-    #     print('No.\t Nama\t Nilai Matematika\t Nilai IPA\t Nilai IPS')
-    #     for i in range(len(daftarsiswa)):
-    #        print('{}\t {}\t {}\t {}\t {}'.format(i,daftarsiswa[i]['Nomor Induk Siswa'],daftarsiswa[i]['Nama'],daftarsiswa[i]['Nilai Matematika'],daftarsiswa[i]['Nilai IPA'],daftarsiswa[i]['Nilai IPS']))
-    # elif(pilihan==str(3)):
-    #     nomornis=input('Masukan Nomor Induk Siswa: ')
-    #     nilaiupdate=input('Masukan Nilai Baru: ')
-    #     pelajaran=input('Masukan Mata Pelajaran Yang Ingin Diganti: ')
-    #     if(pelajaran=='Matematika'):
-    #         daftarsiswa[nomornis]['Matematika':nilaiupdate]
-    #     elif(pelajaran=='IPA'):
-    #         daftarsiswa[nomornis]['IPA':nilaiupdate]
-    #     elif(pelajaran=='IPS'):
-    #         daftarsiswa[nomornis]['IPS':nilaiupdate]
-    #     print('Pembaharuan Data Anda Berhasil\n')
-    #     print('Daftar Siswa\n')
-    #     print('No.\t Nama\t Nilai Matematika\t Nilai IPA\t Nilai IPS')
-    #     for i in range(len(daftarsiswa)):
-    #         print('{}\t {}\t {}\t {}\t {}'.format(i,daftarsiswa[i]['Nomor Induk Siswa'],daftarsiswa[i]['Nama'],daftarsiswa[i]['Nilai Matematika'],daftarsiswa[i]['Nilai IPA'],daftarsiswa[i]['Nilai IPS']))
-    # elif(pilihan==str(4)):
-        # nomornis=input('Masukan Nomor Induk Siswa: ')
-        # hapusnilai=input('Masukan Nilai Baru: ')
-        # pelajaran=input('Masukan Mata Pelajaran Yang Ingin Diganti: ')
-    #     print('Daftar Siswa\n')
-    #     print('No.\t Nama\t Nilai Matematika\t Nilai IPA\t Nilai IPS')
-    #     for i in range(len(daftarsiswa)):
-    #         print('{}\t {}\t {}\t {}\t {}'.format(i,daftarsiswa[i]['Nomor Induk Siswa'],daftarsiswa[i]['Nama'],daftarsiswa[i]['Nilai Matematika'],daftarsiswa[i]['Nilai IPA'],daftarsiswa[i]['Nilai IPS']))
-    #     nomordata=input('Masukan Nomor Nilai yang Ingin Dihapus: ')
-    #     del daftarsiswa[nomordata]
-    #     print('Daftar Siswa\n')
-    #     print('No.\t Nama\t Nilai Matematika\t Nilai IPA\t Nilai IPS')
-    #     for i in range(len(daftarsiswa)):
-    #         print('{}\t {}\t {}\t {}\t {}'.format(i,daftarsiswa[i]['Nomor Induk Siswa'],daftarsiswa[i]['Nama'],daftarsiswa[i]['Nilai Matematika'],daftarsiswa[i]['Nilai IPA'],daftarsiswa[i]['Nilai IPS']))
-    # elif(pilihan==str(5)):
-    #     print('Anda Sudah Keluar dari Program, terima kasih!')
-    # break
